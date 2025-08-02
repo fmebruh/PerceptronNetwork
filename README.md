@@ -1,56 +1,106 @@
-PerceptronNetwork - Blockmesh Bot
-A Python-based bot for interacting with the Blockmesh network, designed for efficiency and ease of use.
- ██████╗███████╗
+Here is a **clean, GitHub-optimized `README.md` format** for the **PerceptronNetwork - Blockmesh Bot**, following the same style as the Helios example you liked:
+
+---
+
+```markdown
+# 🤖 PerceptronNetwork - Blockmesh Bot
+
+A Python-based bot for interacting with the **Blockmesh** network — designed for **efficiency**, **ease of use**, and **multi-account automation**.
+
+```
+
+██████╗███████╗
 ██╔════╝██╔════╝
 ██║     ███████╗
 ██║     ╚════██║
 ╚██████╗███████║
- ╚═════╝╚══════╝
+╚═════╝╚══════╝
 
-Features ✨
-Multi-Account Support: Run the bot with multiple accounts simultaneously.
+````
 
-Proxy Integration: Supports using proxies for all network requests.
+---
 
-Real-time WebSocket: Establishes a WebSocket connection for real-time communication.
+## ✨ Features
 
-Easy Configuration: Simple setup using account.txt and proxies.txt files.
+- **Multi-Account Support**  
+  Run multiple accounts at once using `account.txt`.
 
-Cross-Platform: Compatible with any operating system that supports Python.
+- **Proxy Integration** *(optional)*  
+  Supports HTTP proxies via `proxies.txt`.
 
-Installation & Usage 🚀
-Clone the repository:
+- **Real-time WebSocket Communication**  
+  Maintains a live WebSocket connection with the Blockmesh network.
 
-git clone https://github.com/fmebruh/PerceptronNetwork
+- **Easy Configuration**  
+  Simple text files for account and proxy setup.
 
-Navigate to the project directory:
+- **Cross-Platform**  
+  Works on any OS with Python installed.
 
-cd PerceptronNetwork
+---
 
-Install the required dependencies:
+## ⚙️ Configuration
 
-pip install -r requirements.txt
-
-Configure your accounts and proxies (see below).
-
-Run the bot:
-
-python main.py
-
-You will be prompted to choose whether to use proxies.
-
-Configuration ⚙️
-account.txt: Add your Blockmesh accounts to this file. Each account should be in the format email:password, with one account per line.
-
+### `account.txt`
+Add your Blockmesh accounts in the format:
+```text
 example1@email.com:password123
 example2@email.com:password456
+````
 
-proxies.txt (Optional): If you want to use proxies, add them to this file. The script supports HTTP proxies in the format http://user:pass@host:port, with one proxy per line.
+### `proxies.txt` *(Optional)*
 
-Disclaimer ⚠️
-This tool is for educational purposes only. The developers are not responsible for any misuse or damage caused by this program.
+Supports HTTP proxies in this format:
 
-Support 💬
-For any questions or support, feel free to join our Telegram channel:
+```text
+http://user:pass@host:port
+http://host:port
+```
 
-Telegram: @ChainScripters
+---
+
+## 🚀 Installation & Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/fmebruh/PerceptronNetwork
+cd PerceptronNetwork
+```
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Bot
+
+```bash
+python main.py
+```
+
+You’ll be asked whether to use proxies during execution.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended for **educational purposes only**.
+The developers are **not responsible** for any misuse or damage caused by this program.
+Always use with caution and only with accounts you control.
+
+---
+
+## 💬 Support
+
+For questions, updates, and support:
+
+**Telegram**: [@ChainScripters](https://t.me/ChainScripters)
+
+```
+
+---
+
+Would you like a Telegram-friendly version of this too? Or a downloadable `.md` file?
+```
