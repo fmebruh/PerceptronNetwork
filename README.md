@@ -1,24 +1,10 @@
-Here is a **clean, GitHub-optimized `README.md` format** for the **PerceptronNetwork - Blockmesh Bot**, following the same style as the Helios example you liked:
 
----
 
-```markdown
+
 # 🤖 PerceptronNetwork - Blockmesh Bot
 
 A Python-based bot for interacting with the **Blockmesh** network — designed for **efficiency**, **ease of use**, and **multi-account automation**.
 
-```
-
-██████╗███████╗
-██╔════╝██╔════╝
-██║     ███████╗
-██║     ╚════██║
-╚██████╗███████║
-╚═════╝╚══════╝
-
-````
-
----
 
 ## ✨ Features
 
